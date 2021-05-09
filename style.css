@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #f7f7f7;
+}
+
+.container .row{
+    width: 85%;
+    margin: auto;
+}
+.container .row .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .row .title h1{
+padding-top: 30px;
+font-size: 40px;
+}
+
+.container .row .title span{
+    color: #ff0000;
+}
+
+.container .row .title p{
+margin-top: 15px;
+color: #3d3d3d;
+font-size: 17px;
+line-height: 1.5;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content-section .card{
+    flex: 1;
+    margin: 40px 20px;
+}
+
+.content-section .card img{
+width: 100%;
+height: auto;
+}
+
+.content-section .card h4{
+    margin-top: 20px;
+}
+.content-section .card h4{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #3d3d3d;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:768px){
+    .content-section{
+        flex-direction: column;
+    }
+}
